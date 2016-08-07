@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="LearningSelenium:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/LearningSelenium_jar</output-path>
+    <root id="archive" name="LearningSelenium.jar">
+      <element id="module-output" name="LearningSelenium" />
+    </root>
+  </artifact>
+</component>
