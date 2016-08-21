@@ -17,16 +17,18 @@ public class ArrayListEx {
      */
     public static void main(String[] args) {
 
-        List<String> list = new LinkedList<String>();
-        list.add("Raghav");
-        list.add("Varun");
-        list.add("Raghav");
-        list.add("asdfas");
-
-        for (String i : list)
+        List<String> list = new ArrayList<String>();
+        list.add("abcd");
+        list.add("xyz");
+        list.add("abc123");
+        list.add("xyz");
+        System.out.println(list.contains("Abc123"));
+        for(int i=0;i<list.size();i++)
         {
-            System.out.println(i);
+            System.out.println(list.get(i));
+
         }
+
     }
 
 }

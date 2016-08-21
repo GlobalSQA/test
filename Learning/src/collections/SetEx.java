@@ -9,7 +9,7 @@ public class SetEx {
 
     public static void main(String[] args) throws InterruptedException {
 
-        Set<String> set = new TreeSet<String>();
+        Set<String> set = new HashSet<String>();
         set.add("raghav");
         set.add("varun");
         set.add("raghav");
